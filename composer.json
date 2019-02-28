@@ -19,5 +19,12 @@
         "psr-4": {
             "Uniqueway\\LaravelEventStore\\": "src/"
         }
-    }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Uniqueway\\LaravelEventStore\\LaravelEventStoreServiceProvider"
+            ]
+        }
+    },
 }
